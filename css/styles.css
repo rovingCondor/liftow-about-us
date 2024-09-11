@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* !! Don't include in Shopify CSS | START !! */
+h1, h2, h3, h4, h5, h6, button {
+    font-family: "Montserrat", sans-serif;
+}
+
+p, small {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+form .placeholder {
+    margin: 0 auto;
+}
+
+.form-item {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form .form-item label {
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: left;
+    color: #9c9c9c;
+}
+
+form .form-item input {
+    padding: 0.75rem 0;
+    border: none;
+    border-bottom: 3px solid #A9A8A9;
+    background-color: #ffffff;
+    /* background-color: #EDEDED; */
+}
+/* !! Don't include in Shopify CSS | END !! */
+
+
+
+/* Utility Classes | START */
+
+.section-spacer {
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.content-container {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding:  0 1rem;
+    width: min(100%, 100rem);
+    text-align: center;
+}
+
+.section-container-black {
+    background-color: #1b1b1b;
+    color: #ffffff; 
+}
+
+.section-container-gray-100 {
+    background-color: #F0F0F0;
+    color: #1b1b1b; 
+}
+.section-container-gray-200 {
+    background-color: #EDEDED;
+    color: #1b1b1b; 
+}
+
+.section-container-footer {
+    background-color: #F5F3ED;
+    color: #1b1b1b; 
+}
+
+.section-container-white {
+    background-color: #ffffff;
+    color: #1b1b1b; 
+}
+
+.section-container-orange {
+    background-color: #FF6C0C;
+    color: #1b1b1b; 
+}
+
+.section-container-gray100 {
+    background-color: #f8f8f8;
+    color: #575757; 
+}
+
+.img-full-width {
+    width: 100%;
+}
+
+a.cta-link {
+    text-decoration: none;
+}
+
+button.cta-template {
+    padding: 1rem 1rem;
+    width: min(100%, 21rem);
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #FFED00;
+    transition: all 200ms ease;
+}
+
+button.cta-template:hover {
+    color: #1b1b1b;
+    background-color: #fcca00 ;
+}
+
+button.cta-template.orange-bg {
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    width: min(100%, 25rem);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #FF6C0C;
+    transition: all 200ms ease;
+}
+
+button.cta-template.orange-bg:hover {
+    color: #1b1b1b;
+    background-color: #fceb00 ;
+}
+
+button.cta-template.secondary {
+    margin-top: 0;
+    /* padding: 1rem 1rem; */
+    width: min(100%, 21rem);
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    border: 3px solid #1b1b1b;
+    transition: all 200ms ease;
+}
+
+button.cta-template.secondary:hover {
+    color: #1b1b1b;
+    background-color: #FF6C0C;
+    border: 3px solid #1b1b1b;
+}
+
+button.cta-template.tertiary {
+    color: #FF6C0C;
+    border: 2px solid #FF6C0C;
+    background-color: #FFf;
+}
+
+button.cta-template.tertiary:hover {
+    color: #ffffff;
+    background-color: #FF6C0C;
+}
+
+button.secondary-nav {
+    margin-top: 1rem;
+    padding: 0.7rem 0;
+    width: min(100%, 15rem);
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #FF6C0C;
+    transition: all 200ms ease;
+}
+
+button.secondary-nav:hover {
+    background-color: #1b1b1b;
+}
+
+button.secondary {
+    margin-top: 0;
+    padding: 0.75rem 0.5rem;
+    width: min(100%, 21rem);
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    /* border: 2px solid #FF6C0C; */
+    background-color: #FF6C0C;
+    transition: all 200ms ease;
+}
+/* Utility Classes | END */
+
+
+
+/* MAIN STYLES */
+
+/* =============================== */
+/* Header section | START */
+.about-us-header-container  {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/1393/7021/files/about-us-hero-img-mobile.jpg?v=1724848516);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us-header-container::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.7;
+}
+
+.about-us-header-container  .content-container {
+    position: relative;
+    z-index: 100;
+}
+
+.header-content-container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.64rem;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.header-content-container p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 160%
+}
+
+
+@media (min-width: 75rem) {
+
+    .about-us-header-container  {
+        height: 60vh;
+        background-image: url(https://cdn.shopify.com/s/files/1/1393/7021/files/about-us-hero-img-desktop.jpg?v=1724848516);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-us-header-container  .content-container {
+        margin: 0;
+        padding: 0 0 0 5%;
+        width: min(100%, 75rem);
+        text-align: left;
+    }
+
+    .about-us-header-container::after {
+        opacity: 0.2;
+    }
+
+    .header-content-container h1 {
+        font-size: 2rem;
+    }
+    
+    .header-content-container p {
+        max-width: 900px;
+    }
+
+}
+
+/* Header section | END */
+/* =============================== */
+
+
+
+/* =============================== */
+/* Supporting Copy | START */
+
+/* section.supporting-copy .companies {
+    margin-top: 3rem;
+} */
+
+section.supporting-copy .companies img.mobile {
+    width: min(100%,500px);
+}
+
+section.supporting-copy .companies img.desktop {
+    display: none;
+}
+
+@media (min-width: 55rem) {
+    
+    section.supporting-copy .companies img.mobile {
+        display: none;
+    }
+    
+    section.supporting-copy .companies img.desktop {
+        display: block;
+        margin: 3rem auto 4rem auto;
+        width: min(100%,1000px);
+    }
+
+}
+
+section.supporting-copy .mission-statement {
+    margin-top: 3rem;
+    width: min(100%, 75rem);
+    color: #77777A;
+}
+
+/* Supporting Copy | END */
+/* =============================== */
+
+
+
+/* =============================== */
+/* Divisions | START */
+section.divisions .divisions-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2rem;
+}
+
+
+.division-card {
+    width: min(100%, 400px);
+    background-color: #FF6C0C;
+}
+
+.division-card .img-container {
+    width: 100%;
+    height: 200px;
+    background-color: #77777a;
+}
+
+.division-card .img-container.sales {
+    background-image: url(https://cdn.shopify.com/s/files/1/1393/7021/files/about-us-divisions_equipment-sales.jpg?v=1724850596);
+    background-size: cover;
+    background-position: top 20% right 50%;
+
+}
+
+.division-card .img-container.rentals {
+    background-image: url(https://cdn.shopify.com/s/files/1/1393/7021/files/about-us-divisions_equipment-rentals.jpg?v=1724850595);
+    background-size: cover;
+    background-position: top 20% right 50%;
+
+}
+
+.division-card .img-container.parts {
+    background-image: url(https://cdn.shopify.com/s/files/1/1393/7021/files/about-us-divisions_parts-service.jpg?v=1724850595);
+    background-size: cover;
+    background-position: top 20% right 50%;
+
+}
+
+.division-card .img-container.training {
+    background-image: url(https://cdn.shopify.com/s/files/1/1393/7021/files/about-us-divisions_training.jpg?v=1724850595);
+    background-size: cover;
+    background-position: top 20% right 50%;
+
+}
+
+.card-content-container {
+    padding: 2rem 2rem;
+    color: #ffffff;
+}
+
+.card-content {
+    min-height: 80px;
+}
+
+.card-content h3 {
+    font-size: 1.05rem;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+
+@media (min-width: 55rem) {
+    section.divisions .divisions-cards {
+        margin: 0 auto;
+        max-width: 900px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 75rem) {
+    section.divisions .divisions-cards {
+        max-width: 1400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media (min-width: 100rem) {
+    section.divisions .divisions-cards {
+        max-width: 1600px;
+        gap: 2rem;
+    }
+}
+/* Divisions | END */
+/* =============================== */
+
+
+
+/* =============================== */
+/* Brand Pillars | START */
+section.brand-pillars {
+    margin: 3rem 0 2rem 0;
+}
+
+section.brand-pillars h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #77777A;
+}
+
+.brand-pillar-item {
+    margin: 0 auto 2rem auto;
+    width: min(100%, 35rem);
+}
+
+
+.brand-pillar-item img {
+    max-width: 90px;
+}
+
+.brand-pillar-content h3 {
+    margin: 0.25rem 0 0.2rem 0;
+    font-size: 1.05rem;
+    font-weight: 800;
+    line-height: 110%;
+    color: #77777A;
+}
+
+.brand-pillar-content p {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 130%;
+    color: #77777A;
+}
+
+@media (min-width: 55rem) {
+    .brand-pillars-content-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+
+@media (min-width: 75rem) {
+    .brand-pillars-content-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .brand-pillar-item img {
+        max-width: 60px;
+        /* width: 20%; */
+    }
+}
+
+/* Brand Pillars | END */
+/* =============================== */
+
+
+
+/* =============================== */
+/* Map | START */
+
+section.map {
+    text-align: center;
+    /* temp */
+}
+
+section.map #map {
+    width: 100%;
+    height: 600px;
+}
+
+
+section.map #map .content {
+    margin: 0 2rem 1rem 2rem;
+}
+
+section.map h1.firstHeading {
+    margin: 0 0 0.5rem 0;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FF6C0C;
+}
+
+section.map h1.firstHeading span {
+    position: relative;
+    top: -0.1rem;
+    font-weight: 500;
+    color: #77777a;
+}
+
+section.map p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #77777a;
+}
+
+section.map p.phone {
+    margin: 0.5rem 0 0 0;
+}
+
+
+section.map p.phone a {
+    color: #FF6C0C;
+}
+
+section.map p.phone a:hover {
+    color: #fa9a00;
+}
+
+section.map .gm-ui-hover-effect>span {
+    background-color: #77777a;
+}
+
+/* Map | END */
+/* =============================== */
+
+
+
+/* =============================== */
+/* Timeline | START */
+
+section.timeline {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #FF6C0C;
+}
+
+section.timeline h2 {
+    color: #ffffff;
+}
+
+section.timeline img.logo {
+    margin: 0 0 2rem 0;
+    width: min(100%, 500px);
+    position: relative;
+    left: 0.7rem;
+}
+
+section.timeline img.timeline {
+    width: min(100%, 1200px);
+}
+
+/* Timeline | END */
+/* =============================== */
+
+
+
+/* =============================== */
+/* Company Culture | START */
+.company-culture {
+    color: #77777a;
+}
+
+.company-culture.section-spacer {
+    padding-bottom: 0;
+}
+
+.company-culture .header-content {
+    margin: 0 auto 3rem auto;
+    width: min(100%, 900px);
+}
+
+.company-culture .culture-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.company-culture .culture-grid-item img {
+    max-width: 25%;
+}
+
+.culture-grid-item p {
+    margin: 0 auto;
+    width: min(100%, 350px);
+}
+
+@media (min-width: 55rem) {
+    .company-culture .culture-grid-container {
+        margin: 0 auto;
+        width: min(100%, 900px);
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 85rem) {
+    .company-culture .culture-grid-container {
+        margin: 0 auto;
+        width: min(100%, 1600px);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* Company Culture | END */
+/* =============================== */
+
+
+
+/* =============================== */
+/* Lorem | START */
+
+/* Lorem | END */
+/* =============================== */
