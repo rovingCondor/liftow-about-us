@@ -1,0 +1,69 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+    "sections": {
+      "main": {
+        "type": "page",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "about_us_2024_38rBMq": {
+        "type": "about-us-2024",
+        "settings": {
+          "hero-heading": "About us",
+          "hero-para-01": "Liftow Limited is the largest  authorized Toyota forklift dealer group in North America. Since 1960, it has  been Canada's leading partner for end-to-end Toyota forklift and material  handling solutions since 1960.",
+          "hero-para-02": "Our dedicated and knowledgeable  service team operates in Ontario, Quebec and The Maritimes under Liftow, and  in British Columbia under MasonLift. Our U.S. division , Northern ToyotaLift,  proudly serves Vermont and the surrounding area.",
+          "cta-hero-btn-01": "A history of Liftow",
+          "supporting-copy-01-heading": "Our mission",
+          "supporting-copy-01-para-01": "Liftow is dedicated to offering reliable  and trusted material handling equipment, products, training, and customer  service to our clients in the material handling industry. We build deep  relationships with our clients and are committed to helping them find the  safest, most productive, and cost-efficient solutions for their material  handling needs.",
+          "division-card-01-heading": "Equipment Sales",
+          "division-card-01-para": "New and used Toyota forklift sales",
+          "division-card-01-btn-text": "Learn more",
+          "division-card-02-heading": "Equipment Rentals",
+          "division-card-02-para": "Over 2,400+ Toyota forklift rental units available",
+          "division-card-02-btn-text": "Learn more",
+          "division-card-03-heading": "Parts & Service Sales",
+          "division-card-03-para": "Genuine Toyota parts from your  official Toyota dealer",
+          "division-card-03-btn-text": "Learn more",
+          "division-card-04-heading": "Corporate Training",
+          "division-card-04-para": "LIFT Training, a division of Liftow,  the largest training provider in North America",
+          "division-card-04-btn-text": "Learn more",
+          "brand-pillars-heading": "Liftow is a proven partner that you can trust",
+          "brand-pillar-01-heading": "Premier Products",
+          "brand-pillar-01-para": "By partnering with Toyota, we are Canada's leading forklift provider proven by decades of excellence. We are Canada's largest trusted Toyota Forklift dealer.",
+          "brand-pillar-02-heading": "Trusted Expertise",
+          "brand-pillar-02-para": "Since 1960, our clients continue to partner and rely on us for our industry-leading product knowledge, quick response times, innovative technology and high-quality service.",
+          "brand-pillar-03-heading": "Lasting Legacy",
+          "brand-pillar-03-para": "We have built a reputation as one of Canada's material handling leaders by successfully working with some of the industry's most complicated businesses since 1960.",
+          "brand-pillar-04-heading": "Exceptional Service",
+          "brand-pillar-04-para": "Our top-notch products, parts and technical expertise empower us with the ability to provide a comprehensive service experience from the ground up for clients.",
+          "historical-timeline-heading": "A historical timeline",
+          "historical-timeline-img": "https:\/\/cdn.shopify.com\/s\/files\/1\/1393\/7021\/files\/liftow-timeline-2024-09-11.png?v=1726058726",
+          "company-culture-heading": "Our Company Culture",
+          "company-culture-para": "Liftow's company culture strives to build on a foundation of accountability, collaboration, and perpetual growth. Our commitment to empowerment fosters a sense of ownership and fuels continuous growth.",
+          "company-culture-item-01-heading": "Accountability",
+          "company-culture-item-01-para": "We consistently show up and deliver on our promise to our employees and customers.",
+          "company-culture-item-02-heading": "Collaboration",
+          "company-culture-item-02-para": "We work together as a Team to accomplish more than we can individually.",
+          "company-culture-item-03-heading": "Never Satisfied",
+          "company-culture-item-03-para": "We continuously look for ways to improve our employee and customer experience.",
+          "company-culture-item-04-heading": "Empowerment",
+          "company-culture-item-04-para": "Employees develop a deep sense of commitment and ownership through shared responsibilities.",
+          "company-culture-btn": "VIEW CURRENT JOB OPPORTUNITIES"
+        }
+      }
+    },
+    "order": [
+      "main",
+      "about_us_2024_38rBMq"
+    ]
+  }
+  
